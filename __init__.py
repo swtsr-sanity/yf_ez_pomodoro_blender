@@ -14,7 +14,10 @@ bl_info = {
     "blender": (2, 80, 0),
     "category": "3D View",
     "version": (1, 0, 0),
-    "description": "XXOO",
+    "description": "A Pomodoro Timer in Blender.",
+    "location": "View 3D > Tool > Pomodoro",
+    "category": "3D View",
+    "doc_url": "https://github.com/yufan-zhang1006/yf_ez_pomodoro_blender",
 }
 
 DEBUG = True
