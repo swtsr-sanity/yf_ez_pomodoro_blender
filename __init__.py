@@ -26,7 +26,8 @@ def menu_draw(self, context):
     layout = self.layout
     scene = context.scene
     props = scene.yf_pomodoro_props
-    r = layout.row(align=True)
+    c = layout.column()
+    r = c.row(align=True)
     b = r.box()
     b.label(
         icon_value=custom_icons["tomato" if not props.is_blinking else "invisible"].icon_id,
