@@ -200,6 +200,8 @@ def start_blinking():
 
 def stop_blinking():
     try:
+        props = bpy.context.scene.yf_pomodoro_props
+        props.is_blinking = False
         bpy.app.timers.unregister(blinking)
     except ValueError:
         pass
